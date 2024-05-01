@@ -146,7 +146,7 @@ const Stories = ({
   };
   const handleShare = () => {
     setLinkCopied(!linkCopied);
-    const storyLink = `https://story-sharing-app-frontend-deployement.vercel.app/viewStory/${storyUserId}`;
+    const storyLink = `https://story-sharing-cuvette-evaluation.vercel.app/viewStory/${storyUserId}`;
     navigator.clipboard.writeText(storyLink);
     toast.success("Link copied to clipboard");
   };
